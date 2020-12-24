@@ -1,5 +1,3 @@
-// React Native Pass Value From One Screen to Another Using React Navigation
-// https://aboutreact.com/react-native-pass-value-from-one-screen-to-another-using-react-navigation/
 
 import 'react-native-gesture-handler';
 
@@ -10,6 +8,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import FirstPage from './SignIn';
 import SecondPage from './Home';
+import Elevator from "./Elevator";
 
 const Stack = createStackNavigator();
 
@@ -36,6 +35,20 @@ const App = () => {
           component={SecondPage}
           options={{
             title: 'Home Page', //Set Header Title
+            headerStyle: {
+              backgroundColor: '#f4511e', //Set Header color
+            },
+            headerTintColor: '#fff', //Set Header text color
+            headerTitleStyle: {
+              fontWeight: 'bold', //Set Header text style
+            },
+          }}
+        />
+        <Stack.Screen
+          name="Elevator"
+          component={Elevator}
+          options={{
+            title: 'Elevator Page', //Set Header Title
             headerStyle: {
               backgroundColor: '#f4511e', //Set Header color
             },
