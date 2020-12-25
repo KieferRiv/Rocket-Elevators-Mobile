@@ -22,7 +22,7 @@ const App = () => {
           options={{
             title: 'First Page', //Set Header Title
             headerStyle: {
-              backgroundColor: '#f4511e', //Set Header color
+              backgroundColor: '#ff0000', //Set Header color
             },
             headerTintColor: '#fff', //Set Header text color
             headerTitleStyle: {
@@ -36,7 +36,7 @@ const App = () => {
           options={{
             title: 'Home Page', //Set Header Title
             headerStyle: {
-              backgroundColor: '#f4511e', //Set Header color
+              backgroundColor: '#ff0000', //Set Header color
             },
             headerTintColor: '#fff', //Set Header text color
             headerTitleStyle: {
@@ -50,7 +50,7 @@ const App = () => {
           options={{
             title: 'Elevator Page', //Set Header Title
             headerStyle: {
-              backgroundColor: '#f4511e', //Set Header color
+              backgroundColor: '#ff0000', //Set Header color
             },
             headerTintColor: '#fff', //Set Header text color
             headerTitleStyle: {

@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 
 const FirstPage = ({navigation}) => {
-  const [email, setemail] = useState('AboutReact');
+  const [email, setemail] = useState('Type your email');
   function _userLogin() {
     
     console.log(email);
