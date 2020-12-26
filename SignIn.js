@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 
 const FirstPage = ({navigation}) => {
-  const [email, setemail] = useState('Type your email');
+  const [email, setemail] = useState('');
   function _userLogin() {
     
     console.log(email);
@@ -48,7 +48,7 @@ const FirstPage = ({navigation}) => {
         <TextInput
           value={email}
           onChangeText={(email) => setemail(email)}
-          placeholder={'Enter Any value'}
+          placeholder={'Enter your customer email'}
           style={styles.inputStyle}
         />
         

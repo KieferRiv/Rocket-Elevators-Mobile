@@ -24,7 +24,7 @@ class App extends Component {
                   this.props.navigation.navigate('Elevator', {
                   paramKey: el.id, paramKey2: el.status
                 })} >
-                {"Elevator Number :" + el.id} {"Has a :" + el.status + "status"}
+                {"Elevator Number :" + el.id} {"Has a status of:" + el.status }
                 </TouchableOpacity>
               </li>
             ))}
